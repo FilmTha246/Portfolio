@@ -16,7 +16,7 @@ const Portfolio = () => {
           </div>
           <h3>ColmarAcademy</h3>
           <div className="portfolio_item-cta">
-            <a href="https://github.com/FilmTha246?tab=repositories" className='btn' target="_blank">Github</a>
+            <a href="https://github.com/FilmTha246/ColmarAcademy" className='btn' target="_blank">Github</a>
             <a href="https://filmtha246.github.io/ColmarAcademy/" className='btn btn-primary' target="_blank">Live Demo</a>
           </div>
         </article>
@@ -27,7 +27,7 @@ const Portfolio = () => {
           </div>
           <h3>Codecademy-Jammming</h3>
           <div className="portfolio_item-cta">
-            <a href="https://github.com/FilmTha246?tab=repositories" className='btn' target="_blank">Github</a>
+            <a href="https://github.com/FilmTha246/Codecademy-Jammming" className='btn' target="_blank">Github</a>
             <a href="https://codecademy-jammming.vercel.app/" className='btn btn-primary' target="_blank">Live Demo</a>
           </div>
         </article>
