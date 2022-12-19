@@ -21,13 +21,13 @@ const Contact = () => {
             <FaLinkedin className='contact__option-icon'/>
             <h4>LinkedIn</h4>
             <h5>Thanaporn Chaiyawijit</h5>
-            <a href="https://linkedin.com" target='_blank'></a>
+            <a href="https://www.linkedin.com/in/thanaporn-chaiyawijit-61492924a/" target='_blank'>Click</a>
           </article>
           <article className="contact__option">
             <FaGithub className='contact__option-icon'/>
             <h4>GitHub</h4>
             <h5>FilmTha246</h5>
-            <a href="https://github.com" target='_blank'></a>
+            <a href="https://github.com/FilmTha246" target='_blank'>Click</a>
           </article>
         </div>
       </div>
