@@ -10,6 +10,15 @@ header {
     position: relative;
 }
 
+h1,
+h3 {
+    color: #277BC0;
+}
+
+a:hover {
+    color: #FAAB78;
+}
+
 /* =============== CTA ================ */
 .cta {
     margin-top: 2.5rem;
@@ -42,16 +51,18 @@ header {
 
 /* =============== ME ================ */
 .me {
-    background: linear-gradient(var(--color-primary), transparent);
-    width: 22rem;
-    height: 30rem;
+    /* background: linear-gradient(#86ABC5, #E8B862, #EA9B5C, #AAC8C4, #D9CF9B,transparent); */
+    width: 18rem;
+    height: 40rem;
     position: absolute;
-    left: calc(50% - 11rem);
-    margin-top: 4rem;
-    border-radius: 12rem 12rem 0 0;
+    left: calc(50% - 9rem);
     overflow: hidden;
     padding: 5rem 1.5rem 1.5rem 1.5rem;
-} 
+}
+
+img {
+    border-radius: 12rem 12rem 0 0;
+}
 
 /* =============== SCROLL DOWN ================ */
 .scroll__down {
@@ -74,12 +85,23 @@ header {
 @media screen and (max-width: 600px) {
     header {
         height: 100vh;
+        padding-top: 4rem;
     }
 
     .header__socials,
     .scroll__down {
         display: none;
     }
+
+    .me {
+        padding: 3rem 1.5rem 1.5rem 1.5rem;
+    }
+
+    img {
+        border-radius: 12rem 12rem 0 0;
+        height: 18rem;
+    }
+
 }
 
 

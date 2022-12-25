@@ -36,10 +36,8 @@ html {
 
 body {
     font-family: 'Poppins', sans-serif;
-    background: var(--color-bg);
-    color: var(--color-white);
     line-height: 1.7;
-    /* background-image: url(../src/assets/3.png); */
+    background: linear-gradient(#C3F8FF, #FFF6BF, #FFF6BF,#C3F8FF, transparent);
 }
 
 /* ===================== GENERAL STYLES ================== */
@@ -66,7 +64,7 @@ section {
 
 section > h2, section > h5 {
     text-align: center;
-    color: var(--color-light);
+    /* color: var(--color-light); */
 }
 
 
@@ -84,9 +82,10 @@ a {
     transition: var(--transition);
 }
 
-a:hover {
+/* a:hover {
     color: var(--color-white);
-}
+    color: #FAAB78;
+} */
 
 .btn {
     width: max-content;

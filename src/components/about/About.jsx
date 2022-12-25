@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css';
-import ME from '../../assets/Avartarme.png'
+import ME from '../../assets/about.gif'
 import { FaAward } from "react-icons/fa";
 import { VscFolderLibrary } from "react-icons/vsc";
 
@@ -28,14 +28,13 @@ const About = () => {
             <article className='about__card'>
               <VscFolderLibrary className='about__icon'/>
               <h5>Projects</h5>
-              <small>2 Completed</small>
+              <small>3 Completed</small>
             </article>
           </div>
 
           <p>
-          I am a graduate of Generation's Junior Software Developer Bootcamp looking for work as a front-end developer. 
-          I am a responsible individual with good teamwork. I am eager to learn new things to continually improve my abilities. 
-          I'm looking for a job where I can use my knowledge and skills to help the organization grow.
+          I believe learning is the way to new opportunities and practice is the key to the success. 
+          Therefore, I'm always learning new things and practicing myself for a good software developer in the future.
           </p>
 
           <a href="#contact" className='btn btn-primary'>Contact</a>

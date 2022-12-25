@@ -1,7 +1,6 @@
 .container.contact__container {
     width: 100%;
     display: flex;
-    /* grid-template-columns: 25% 25% 25%; */
     justify-content: space-evenly;
     gap: 12%;
 }
@@ -13,12 +12,16 @@
 }
 
 .contact__option {
-    background: var(--color-bg-variant);
+    background-color: #C4DDFF;
     padding: 1.2rem;
     border-radius: 1.2rem;
     text-align: center;
     border: 1px solid transparent;
     transition: var(--transition);
+}
+
+.contact__option h5 {
+    color: #001D6E;
 }
 
 .contact__option:hover {
