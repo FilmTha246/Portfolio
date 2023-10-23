@@ -1,0 +1,45 @@
+.certificate__container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.5rem;
+}
+
+.certificate__item {
+    background-color: #FFE3E1;
+    padding: 1.3rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
+}
+
+.certificate__item:hover {
+    border-color: var(--color-primary-variant);
+    background-color: #C3F8FF;
+}
+
+.certificate__item-image {
+    border-radius: 1.5rem;
+    overflow: hidden;
+}
+
+.certificate__item h3 {
+    margin: 1.2rem 0 1.2rem;
+}
+
+
+/* ============= MEDIA QUERIES (MEDIUM DEVICES) =============== */
+@media screen and (max-width: 1024px) {
+    .certificate__container {
+        grid-template-columns: 1fr 1fr;
+        gap: 1.2rem;
+    }
+}
+
+/* ============= MEDIA QUERIES (SMALL DEVICES) =============== */
+@media screen and (max-width: 600px) {
+    .certificate__container {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+}
+

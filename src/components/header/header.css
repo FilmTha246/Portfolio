@@ -12,7 +12,7 @@ header {
 
 h1,
 h3 {
-    color: #277BC0;
+    color: var(--color-primary);
 }
 
 a:hover {
@@ -50,18 +50,23 @@ a:hover {
 }
 
 /* =============== ME ================ */
+div.me {
+    width: max-content;
+    margin-top: 5rem;
+}
+
 .me {
-    /* background: linear-gradient(#86ABC5, #E8B862, #EA9B5C, #AAC8C4, #D9CF9B,transparent); */
-    width: 18rem;
-    height: 40rem;
+    width: 20rem;
+    height: 20rem;
     position: absolute;
-    left: calc(50% - 9rem);
+    left: calc(45% - 10rem);
     overflow: hidden;
-    padding: 5rem 1.5rem 1.5rem 1.5rem;
+    padding: 2rem 0 1.5rem 0;
 }
 
 img {
-    border-radius: 12rem 12rem 0 0;
+    width: 100%;
+    height: 100%;
 }
 
 /* =============== SCROLL DOWN ================ */
@@ -93,12 +98,17 @@ img {
         display: none;
     }
 
+    div.me {
+        width: 100%;
+        position: absolute;
+        left: calc(49% - 11rem);
+    }
+
     .me {
-        padding: 3rem 1.5rem 1.5rem 1.5rem;
+        padding: 3rem 0 1.5rem 0;
     }
 
     img {
-        border-radius: 12rem 12rem 0 0;
         height: 18rem;
     }
 

@@ -35,6 +35,8 @@ const About = () => {
           <p>
           I believe learning is the way to new opportunities and practice is the key to the success. 
           Therefore, I'm always learning new things and practicing myself for a good software developer in the future.
+          <br />
+          <span>- Believe you can and you're halfway there. -</span>
           </p>
 
           <a href="#contact" className='btn btn-primary'>Contact</a>

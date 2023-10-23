@@ -49,7 +49,12 @@
 
 .about__content p {
     margin: 2rem 0 2.6rem;
-    color: #277BC0;
+    /* color: #277BC0; */
+    color: var(--color-white);
+}
+
+.about__content span {
+    font-style: italic;
 }
 
 h5 {
